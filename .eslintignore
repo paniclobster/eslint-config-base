@@ -1,0 +1,5 @@
+# See https://eslint.org/docs/latest/user-guide/configuring/ignoring-code# for
+# more about ignoring files.
+
+### Build ###
+/dist

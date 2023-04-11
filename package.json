@@ -1,0 +1,60 @@
+{
+  "name": "@paniclobster/eslint-config-base",
+  "version": "1.0.0",
+  "description": "ESLint config package",
+  "keywords": [
+    "config",
+    "eslint",
+    "paniclobster"
+  ],
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/paniclobster/workspace.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/paniclobster/workspace/-/issues"
+  },
+  "author": {
+    "name": "Rodrigo Scomação do Nascimento",
+    "email": "rodrigo.sc.na@gmail.com",
+    "url": "https://github.com/rodrigoscna"
+  },
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "5.55.0",
+    "@typescript-eslint/parser": "5.55.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-airbnb-typescript": "17.0.0",
+    "eslint-config-prettier": "8.7.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "typescript": "5.0.2"
+  },
+  "devDependencies": {
+    "@types/jest": "29.5.0",
+    "@types/node": "18.15.3",
+    "eslint": "8.36.0",
+    "prettier": "2.8.7"
+  },
+  "peerDependencies": {
+    "@rushstack/eslint-patch": "1.2.0",
+    "eslint": "8.36.0"
+  },
+  "peerDependenciesMeta": {
+    "@rushstack/eslint-patch": {
+      "optional": false
+    },
+    "eslint": {
+      "optional": false
+    }
+  },
+  "scripts": {
+    "lint": "eslint --max-warnings=0 ./**/*.{js,jsx,ts,tsx}"
+  }
+}

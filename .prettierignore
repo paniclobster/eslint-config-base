@@ -1,0 +1,10 @@
+# See https://prettier.io/docs/en/ignore.html for more about ignoring files.
+
+### Helm ###
+.tilt/deployments/k8s/**/charts/**/*
+charts/**/*
+development/platform/**/charts/**/*
+src/apps/*/chart/**/*
+src/libraries/*/chart/**/*
+src/services/*/chart/**/*
+src/tools/*/chart/**/*
