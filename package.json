@@ -1,6 +1,6 @@
 {
   "name": "@paniclobster/eslint-config-base",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ESLint config package",
   "keywords": [
     "config",
